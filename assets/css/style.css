@@ -12628,6 +12628,24 @@ figcaption {
   padding-bottom: 100px;
   position: relative;
 }
+/* Target the paragraph inside skill-share */
+.skill-share-inner .skill-share p {
+    color: oklab(39.381% -0.08594 0.05808); /* Change text color here */
+    font-weight: 500; /* optional: make it slightly bolder */
+    margin: 0; /* reset default margin */
+    padding-left: 10px; /* small side padding */
+    padding-right: 10px; /* small side padding */
+}
+
+/* Mobile padding adjustment */
+@media (max-width: 768px) {
+    .skill-share-inner .skill-share p {
+        padding-left: 20px; /* increase padding on mobile */
+        padding-right: 20px;
+        text-align: center; /* optional: center on small screens */
+    }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide {
     padding-bottom: 80px;
