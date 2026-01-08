@@ -14893,8 +14893,8 @@ div#featured-project-carousel {
   overflow: visible;
   position: relative;
   border-radius: 14px;
-  background: #f02981;
-  background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+  background: #24a440;
+  background: linear-gradient(145deg, #24a440 0%, #24a440 100%);
 }
 .progress-charts .progress .progress-bar span.percent-label {
   position: absolute;
@@ -14907,6 +14907,45 @@ div#featured-project-carousel {
   letter-spacing: 2px;
   opacity: 0.9;
 }
+
+
+/*=========================
+    Resume Button Styles 
+==========================*/
+.resume-buttons {
+    display: flex;
+    gap: 15px; /* space between buttons */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn-resume {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #fff;
+    background: #4f46e5; /* primary color, can change */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-resume:hover {
+    background: #4338ca; /* darker on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.btn-resume.download {
+    background: #10b981; /* green for download button */
+}
+
+.btn-resume.download:hover {
+    background: #059669;
+}
+
 
 /*---------------------------
     Testimonial Area Styles 
