@@ -14818,6 +14818,42 @@ div#featured-project-carousel {
   }
 }
 
+
+
+
+/*=========================
+    Portfolio GitHub Styles 
+==========================*/
+
+/* Portfolio meta and GitHub bottom spacing */
+.rn-portfolio .content .category-info .meta {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between heart icon and number */
+}
+
+.rn-portfolio .content .portfolio-github-bottom {
+    margin-top: 15px; /* space above GitHub */
+}
+
+.rn-portfolio .content .portfolio-github-bottom a {
+    display: inline-flex;
+    align-items: center;
+    color: #000; /* make GitHub icon black */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.rn-portfolio .content .portfolio-github-bottom a i {
+    margin-right: 5px; /* space between icon and text */
+}
+
+.rn-portfolio .content .portfolio-github-bottom a:hover {
+    color: #f02981; /* optional hover color */
+}
+
+
+
 /*=========================
     Progress Bar Styles 
 ==========================*/
