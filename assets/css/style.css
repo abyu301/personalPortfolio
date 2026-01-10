@@ -17054,6 +17054,7 @@ span.sr-only {
 .rn-portfolio .inner .content .category-info .category-list a,
 .rn-blog .inner .content .category-info .category-list a {
   color: var(--color-primary);
+  color: var(--color-success);
   font-weight: 500;
   font-family: var(--font-primary);
   font-size: 12px;
