@@ -14852,6 +14852,29 @@ div#featured-project-carousel {
     color: #f02981; /* optional hover color */
 }
 
+/* Hover effect for both icon and text */
+.details-hover span {
+    transition: color 0.3s; /* smooth text color change */
+    cursor: pointer;        /* show pointer on hover */
+}
+
+.details-hover span:hover {
+    color: #ff6600;          /* change text color on hover */
+}
+
+/* Hover effect specifically for the icon */
+.details-hover span a i {
+    transition: transform 0.3s, color 0.3s;
+}
+
+.details-hover span:hover a i {
+    color: #ff6600;          /* change icon color on hover */
+    transform: scale(1.2);   /* slightly enlarge icon */
+}
+
+
+
+
 
 
 /*=========================
